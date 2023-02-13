@@ -1,4 +1,5 @@
 def sum_all(numList):
+    #sum all ints in a list
     ans = 0;
     if(type(numList) != list):
         print("Not a List")
@@ -7,6 +8,7 @@ def sum_all(numList):
     return ans
 
 def multiply_all (numList):
+    #multiplies all numbers in a list
     ans = 0;
     if(type(numList) != list):
         print("Not a List")
@@ -19,10 +21,10 @@ def multiply_all (numList):
     return ans
 
 def reverse(numList):
+    #reverse all elements in a list
     return list(reversed(numList))
 
-
-numList = [1,2,3,4]
-print(reverse(numList))
+def doNothing():
+    
 
 
