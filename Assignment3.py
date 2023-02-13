@@ -18,7 +18,11 @@ def multiply_all (numList):
             
     return ans
 
-    
-    
+def reverse(numList):
+    return list(reversed(numList))
+
+
+numList = [1,2,3,4]
+print(reverse(numList))
 
 
